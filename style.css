@@ -29,7 +29,9 @@
 .mid {
     position: absolute;
     top: 70px;
-    height: 80%;
+    height: fit-content;
+    /* margin-bottom: 140px; */
+    padding-bottom: 70px;
 }
 
 #list-container div {
@@ -54,7 +56,6 @@
     background-color: rgba(18, 18, 18, 0.858);
     color: white;
     border-radius: 0px 0px 5px 5px;
-    box-shadow: inset;
 }
 
 .footer {
