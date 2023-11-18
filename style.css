@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agbalumo";
+}
+
+.colored-section {
+    color: white;
+    padding: 2%;
+    font-size: 1.5rem;
+    background-color: rgb(15, 14, 14);
+    /* overflow: hidden;
+    position: fixed;
+    */
+    text-align: center;
+    /* Set the navbar to fixed position */
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    /* Full width */
+}
+
+.mid {
+    position: absolute;
+    top: 70px;
+    height: 80%;
+}
+
+#list-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#list-container img {
+    border: 1cm;
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+    width: 100%;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.comicName {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(18, 18, 18, 0.858);
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: inset;
+}
+
+.footer {
+    width: 50%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
